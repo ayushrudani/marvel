@@ -9,10 +9,52 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
 
+    <!-- Boxicons CDN Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+
 </head>
 
 <body>
-    <p>MARVEL STDIO</p>
+    <!-- Navbar -->
+    <header>
+        <a href="#" class="logo">
+            MARVEL 
+        </a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <!-- Menu -->
+        <ul class="navbar">
+            <li><a href="#home" class="home-active">Home</a></li>
+            <li><a href="#movies">Movies</a></li>
+            <li><a href="#comics">Coming</a></li>
+            <li><a href="#newsletter">Newsletter</a></li>
+        </ul>
+    </header>
+    <!-- Home -->
+    <section class="home swiper" id="home">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide container">
+                <img src="" alt="">
+                <div class="home-text">
+                    <span>Marvel Universe</span>
+                    <h1>Venom: Let There<br>Lorem, ipsum. </h1>
+                    <div class="btn">Download Now</div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+    </section>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- My JS -->
+    <script src="./js/script.js"></script>
+
 </body>
 
 </html>
