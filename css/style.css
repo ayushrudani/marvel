@@ -115,7 +115,7 @@
         width: 100%;
         min-height: 640px;
         position: relative;
-        display: flex;
+        display: flex !important;
         align-items: center;
         background-color: rgb(2, 3, 7, 0.4);
     }
