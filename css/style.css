@@ -1,0 +1,14 @@
+@font-face {
+    font-family: marvel;
+    src: url(../assets/fonts/MarvelRegular-Dj83.ttf);
+}
+
+body {
+    font-family: marvel;
+    background-color: #000;
+    color: #fff;
+    /* letter-spacing: 4px; */
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 1.1px;
+}
